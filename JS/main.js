@@ -146,7 +146,7 @@ window.onscroll = function () {
     upScroll.style.display = "none";
   }
 
-  if (window.scrollY >= skills.offsetTop - 300 && window.scrollY < 1500) {
+  if (window.scrollY >= skills.offsetTop - 300 ) {
     skillSpan.forEach((span) => {
       span.style.width = span.dataset.progress;
       span.innerHTML = span.dataset.progress;

@@ -217,7 +217,7 @@ document.querySelector(".reset-settings").addEventListener("click", () => {
 let prompText = document.getElementById('prompText');
 let submit = document.getElementById('submit').addEventListener("click",(e)=>{
   let number = "+201050305754";
-  
+  e.preventDefault();
   let name = document.querySelector('form .left .userName').value;
   let phone = document.querySelector('form .left .userPhone').value;
   let email = document.querySelector('form .left .userEmail').value;
